@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap");
+.content_title {
+  font-weight: 600;
+  font-size: 48px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 1rem;
+  color: #FF7878;
+}
+.content_title_big {
+  font-size: 64px;
+}
+
+/*# sourceMappingURL=BlockContentTitle.css.map */

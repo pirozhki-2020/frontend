@@ -1,0 +1,15 @@
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.image {
+}
+
+.image_rounded {
+  border-radius: 100%;
+}

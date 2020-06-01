@@ -1,0 +1,12 @@
+.block {
+  width: 100%;
+  background: url("./img/bg@2x.png") no-repeat center 0/cover;
+  position: relative;
+}
+.block__bottle {
+  width: 100%;
+  background: no-repeat center 0/cover;
+  position: absolute;
+}
+
+/*# sourceMappingURL=Block.css.map */
