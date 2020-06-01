@@ -70,7 +70,7 @@ const Root = () => {
                 </BlockContent>
             </Block>
 
-            <Block part="bottom" image="../../../public/static/img/bottom.png'"/>
+            <Block part="bottom" image="../../../public/static/img/bottom.png"/>
         </>
     );
 };
