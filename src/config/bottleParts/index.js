@@ -1,7 +1,7 @@
-import topPart from './img/top.png';
-import middlePart from './img/middle.png';
-import contentPart from './img/content.png';
-import bottomPart from './img/bottom.png';
+import topPart from '../../../public/static/img/top.png';
+import middlePart from '../../../public/static/img/middle.png';
+import contentPart from '../../../public/static/img/content.png';
+import bottomPart from '../../../public/static/img/bottom.png';
 
 const TOP_SIZE = 1440;
 const MIDDLE_SIZE = 1440;
