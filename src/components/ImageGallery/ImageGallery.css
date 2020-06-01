@@ -7,6 +7,10 @@
   max-width: 100%;
 }
 
+.image {
+  margin: 0 1rem;
+}
+
 .image_rounded {
   border-radius: 100%;
 }

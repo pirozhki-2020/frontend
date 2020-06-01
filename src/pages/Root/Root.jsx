@@ -15,6 +15,19 @@ const Root = () => {
 
             <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
+                    <BlockContentTitle>Команда</BlockContentTitle>
+                    <ImageGallery size={250}
+                                  rounded={true}
+                                  children={[
+                                      "../../../public/static/img/liza.jpeg",
+                                      "../../../public/static/img/nastya.jpeg",
+                                      "../../../public/static/img/artyom.jpeg",
+                                  ]}/>
+                </BlockContent>
+            </Block>
+
+            <Block part="content" image="../../../public/static/img/content.png">
+                <BlockContent>
                     <Logo/>
                     <Line>Проект по подбору рецептов коктейлей по имеющимся ингредиентам.</Line>
                     <Line>Ключевые особенности:</Line>
@@ -39,29 +52,23 @@ const Root = () => {
                 <BlockContent>
                     <BlockContentTitle>Разработка</BlockContentTitle>
                     <Line>Технологии и трудности</Line>
-                    <ImageGallery size={200}
+                    <ImageGallery size={150}
+                                  rounded={true}
                                   children={[
                                       "../../../public/static/img/figma.png",
                                       "../../../public/static/img/web_scraper.png",
                                       "../../../public/static/img/django.png",
                                       "../../../public/static/img/android.png",
                                       "../../../public/static/img/react.png",
+                                      "../../../public/static/img/material.png",
+                                      "../../../public/static/img/navigation.png",
+                                      "../../../public/static/img/retrofit.png",
+                                      "../../../public/static/img/rxJava.png",
                                   ]}/>
                 </BlockContent>
             </Block>
 
-            <Block part="content" image="../../../public/static/img/content.png">
-                <BlockContent>
-                    <BlockContentTitle>Команда</BlockContentTitle>
-                    <ImageGallery size={250}
-                                  rounded={true}
-                                  children={[
-                                      "../../../public/static/img/liza.jpeg",
-                                      "../../../public/static/img/nastya.jpeg",
-                                      "../../../public/static/img/artyom.jpeg",
-                                  ]}/>
-                </BlockContent>
-            </Block>
+
 
 
             <Block part="content" image="../../../public/static/img/content.png">
