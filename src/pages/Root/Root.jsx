@@ -10,10 +10,10 @@ import ImageGallery from "components/ImageGallery";
 const Root = () => {
     return (
         <>
-            <Block part="top"/>
-            <Block part="middle"/>
+            <Block part="top" image="../../../public/static/img/top.png"/>
+            <Block part="middle" image="../../../public/static/img/middle.png"/>
 
-            <Block part="content">
+            <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
                     <Logo/>
                     <Line>Проект по подбору рецептов коктейлей по имеющимся ингредиентам.</Line>
@@ -26,7 +26,7 @@ const Root = () => {
                 </BlockContent>
             </Block>
 
-            <Block part="content">
+            <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
                     <BlockContentTitle>Идея</BlockContentTitle>
                     <Line>Кулинарное приложение vs Алкогольное приложение</Line>
@@ -35,7 +35,7 @@ const Root = () => {
             </Block>
 
 
-            <Block part="content">
+            <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
                     <BlockContentTitle>Разработка</BlockContentTitle>
                     <Line>Технологии и трудности</Line>
@@ -50,7 +50,7 @@ const Root = () => {
                 </BlockContent>
             </Block>
 
-            <Block part="content">
+            <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
                     <BlockContentTitle>Команда</BlockContentTitle>
                     <ImageGallery size={250}
@@ -64,13 +64,13 @@ const Root = () => {
             </Block>
 
 
-            <Block part="content">
+            <Block part="content" image="../../../public/static/img/content.png'">
                 <BlockContent>
                     <BlockContentTitle>Демонстрация</BlockContentTitle>
                 </BlockContent>
             </Block>
 
-            <Block part="bottom"/>
+            <Block part="bottom" image="../../../public/static/img/bottom.png'"/>
         </>
     );
 };
