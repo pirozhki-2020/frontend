@@ -64,7 +64,7 @@ const Root = () => {
             </Block>
 
 
-            <Block part="content" image="../../../public/static/img/content.png'">
+            <Block part="content" image="../../../public/static/img/content.png">
                 <BlockContent>
                     <BlockContentTitle>Демонстрация</BlockContentTitle>
                 </BlockContent>
